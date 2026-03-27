@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayLuxe • Sign in</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand" data-transition>
+          <span class="brand-dot"></span>
+          <span>StayLuxe</span>
+        </a>
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html" data-transition>Home</a>
+          <a class="nav-link" href="listings.html" data-transition>Hotels</a>
+          <a class="nav-link" href="register.html" data-transition>Register</a>
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container auth-page">
+      <section class="auth-card" data-animate>
+        <h1>Sign in</h1>
+        <p class="meta">Access your bookings, saved properties, and trip preferences.</p>
+
+        <form class="auth-form" data-signin-form>
+          <label class="field">
+            <span class="label">Email</span>
+            <input class="input" type="email" name="email" required placeholder="name@email.com" />
+          </label>
+
+          <label class="field">
+            <span class="label">Password</span>
+            <input class="input" type="password" name="password" required placeholder="Enter password" minlength="8" />
+          </label>
+
+          <button class="btn btn-primary ripple" type="submit">Sign in</button>
+        </form>
+
+        <p class="auth-switch">New to StayLuxe? <a href="register.html" data-transition>Create an account</a></p>
+      </section>
+    </main>
+
+    <div data-toast-root></div>
+    <script type="module" src="js/auth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayLuxe • Hotel Details</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand" data-transition>
+          <span class="brand-dot"></span>
+          <span>StayLuxe</span>
+        </a>
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html" data-transition>Home</a>
+          <a class="nav-link active" href="listings.html" data-transition>Hotels</a>
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" data-detail-root>
+      <div class="skeleton" style="margin-top:30px"></div>
+    </main>
+
+    <footer class="footer">Detailed stay insights before you book</footer>
+    <div data-toast-root></div>
+
+    <script type="module" src="js/details.js"></script>
+  </body>
+</html>

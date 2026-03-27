@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayLuxe • Register</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand" data-transition>
+          <span class="brand-dot"></span>
+          <span>StayLuxe</span>
+        </a>
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html" data-transition>Home</a>
+          <a class="nav-link" href="listings.html" data-transition>Hotels</a>
+          <a class="nav-link" href="signin.html" data-transition>Sign in</a>
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container auth-page">
+      <section class="auth-card" data-animate>
+        <h1>Create account</h1>
+        <p class="meta">Save your preferences and complete bookings faster.</p>
+
+        <form class="auth-form" data-register-form>
+          <label class="field">
+            <span class="label">Full name</span>
+            <input class="input" type="text" name="name" required placeholder="Your full name" />
+          </label>
+
+          <label class="field">
+            <span class="label">Email</span>
+            <input class="input" type="email" name="email" required placeholder="name@email.com" />
+          </label>
+
+          <label class="field">
+            <span class="label">Password</span>
+            <input class="input" type="password" name="password" required placeholder="At least 8 characters" minlength="8" />
+          </label>
+
+          <label class="checkbox-row">
+            <input type="checkbox" name="agree" required />
+            <span>I agree to the Terms and Privacy Policy</span>
+          </label>
+
+          <button class="btn btn-primary ripple" type="submit">Create account</button>
+        </form>
+
+        <p class="auth-switch">Already have an account? <a href="signin.html" data-transition>Sign in</a></p>
+      </section>
+    </main>
+
+    <div data-toast-root></div>
+    <script type="module" src="js/auth.js"></script>
+  </body>
+</html>

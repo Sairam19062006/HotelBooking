@@ -1,0 +1,170 @@
+[
+  {
+    "id": "h101",
+    "name": "Aurora Skyline Suites",
+    "city": "Barcelona",
+    "country": "Spain",
+    "description": "Panoramic skyline views, rooftop infinity pool, and a calm contemporary design minutes from the Gothic Quarter.",
+    "pricePerNight": 289,
+    "rating": 9.4,
+    "reviewsCount": 1248,
+    "amenities": ["wifi", "pool", "spa", "breakfast", "parking"],
+    "coordinates": {"lat": 41.3874, "lng": 2.1686},
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Noah", "score": 9.6, "comment": "Beautiful interior and exceptional rooftop."},
+      {"author": "Valentina", "score": 9.2, "comment": "Staff were warm and highly attentive."}
+    ]
+  },
+  {
+    "id": "h102",
+    "name": "Maison Lumière",
+    "city": "Paris",
+    "country": "France",
+    "description": "Boutique luxury in the heart of Le Marais with curated interiors and Michelin-inspired breakfast.",
+    "pricePerNight": 349,
+    "rating": 9.1,
+    "reviewsCount": 981,
+    "amenities": ["wifi", "spa", "breakfast", "gym"],
+    "coordinates": {"lat": 48.8566, "lng": 2.3522},
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Ava", "score": 9.3, "comment": "Felt like a design magazine brought to life."},
+      {"author": "Ethan", "score": 8.9, "comment": "Perfect location and very comfortable rooms."}
+    ]
+  },
+  {
+    "id": "h103",
+    "name": "Nordic Harbor Hotel",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "description": "Scandinavian minimalism meets waterfront tranquility, steps from Nyhavn and top dining spots.",
+    "pricePerNight": 245,
+    "rating": 8.9,
+    "reviewsCount": 754,
+    "amenities": ["wifi", "breakfast", "parking", "gym"],
+    "coordinates": {"lat": 55.6761, "lng": 12.5683},
+    "images": [
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Lucas", "score": 8.8, "comment": "Great breakfast and very peaceful rooms."},
+      {"author": "Mia", "score": 9.0, "comment": "Stylish and practical for city trips."}
+    ]
+  },
+  {
+    "id": "h104",
+    "name": "Azure Bay Retreat",
+    "city": "Santorini",
+    "country": "Greece",
+    "description": "Cliffside suites with private plunge pools and unforgettable sunset views over the Aegean.",
+    "pricePerNight": 419,
+    "rating": 9.7,
+    "reviewsCount": 1664,
+    "amenities": ["wifi", "pool", "spa", "breakfast", "airport-shuttle"],
+    "coordinates": {"lat": 36.3932, "lng": 25.4615},
+    "images": [
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1455587734955-081b22074882?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Sofia", "score": 9.9, "comment": "Best sunset I’ve seen from any hotel."},
+      {"author": "Liam", "score": 9.4, "comment": "Exceptional service and dreamy atmosphere."}
+    ]
+  },
+  {
+    "id": "h105",
+    "name": "Urban Nest Midtown",
+    "city": "New York",
+    "country": "USA",
+    "description": "A modern Midtown stay with smart rooms, co-working lounge, and fast access to Broadway.",
+    "pricePerNight": 315,
+    "rating": 8.7,
+    "reviewsCount": 2102,
+    "amenities": ["wifi", "gym", "parking", "pet-friendly"],
+    "coordinates": {"lat": 40.7128, "lng": -74.0060},
+    "images": [
+      "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1521783593447-5702b9bfd267?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "James", "score": 8.6, "comment": "Great location for business travel."},
+      {"author": "Chloe", "score": 8.9, "comment": "Loved the clean aesthetic and staff."}
+    ]
+  },
+  {
+    "id": "h106",
+    "name": "Canal Loft Amsterdam",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "description": "Historic canal-house architecture blended with airy loft interiors and curated local experiences.",
+    "pricePerNight": 272,
+    "rating": 9.0,
+    "reviewsCount": 835,
+    "amenities": ["wifi", "breakfast", "bike-rental", "pet-friendly"],
+    "coordinates": {"lat": 52.3676, "lng": 4.9041},
+    "images": [
+      "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Olivia", "score": 9.1, "comment": "Charming stay with incredible atmosphere."},
+      {"author": "Daniel", "score": 8.8, "comment": "Excellent base for exploring canals."}
+    ]
+  },
+  {
+    "id": "h107",
+    "name": "Sakura Sky Residence",
+    "city": "Tokyo",
+    "country": "Japan",
+    "description": "High-rise luxury with skyline baths, premium omakase dining, and seamless smart concierge.",
+    "pricePerNight": 389,
+    "rating": 9.5,
+    "reviewsCount": 1422,
+    "amenities": ["wifi", "spa", "gym", "breakfast", "airport-shuttle"],
+    "coordinates": {"lat": 35.6762, "lng": 139.6503},
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Hana", "score": 9.7, "comment": "Elegant and efficient in every detail."},
+      {"author": "Mateo", "score": 9.2, "comment": "Amazing city views and fantastic dining."}
+    ]
+  },
+  {
+    "id": "h108",
+    "name": "Palm Dune Escape",
+    "city": "Dubai",
+    "country": "UAE",
+    "description": "Desert-inspired luxury resort with private beach access, cabanas, and world-class wellness.",
+    "pricePerNight": 455,
+    "rating": 9.3,
+    "reviewsCount": 1750,
+    "amenities": ["wifi", "pool", "spa", "gym", "parking", "airport-shuttle"],
+    "coordinates": {"lat": 25.2048, "lng": 55.2708},
+    "images": [
+      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80"
+    ],
+    "reviews": [
+      {"author": "Amir", "score": 9.4, "comment": "Five-star service from check-in to checkout."},
+      {"author": "Zara", "score": 9.1, "comment": "Stunning pools and great family facilities."}
+    ]
+  }
+]

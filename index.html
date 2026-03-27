@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayLuxe • Find your next stay</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="booking-home">
+    <header class="bk-hero" data-animate>
+      <div class="bk-wrap">
+        <div class="bk-topline">
+          <a class="bk-logo" href="index.html" data-transition>
+            <span class="bk-logo-mark" aria-hidden="true">✦</span>
+            <span>StayLuxe</span>
+          </a>
+          <div class="bk-head-actions">
+            <button class="bk-link-btn" data-currency>INR</button>
+            <a class="bk-link-btn" href="#" data-list-property>List your property</a>
+            <a class="bk-outline-btn" href="register.html" data-transition>Register</a>
+            <a class="bk-outline-btn" href="signin.html" data-transition>Sign in</a>
+          </div>
+        </div>
+
+        <nav class="bk-service-tabs" data-service-tabs>
+          <button class="bk-service-tab active" data-service="stays">Stays</button>
+          <button class="bk-service-tab" data-service="flights">Flights</button>
+          <button class="bk-service-tab" data-service="flight-hotel">Flight + Hotel</button>
+          <button class="bk-service-tab" data-service="cars">Car rental</button>
+          <button class="bk-service-tab" data-service="attractions">Attractions</button>
+          <button class="bk-service-tab" data-service="taxi">Airport taxis</button>
+        </nav>
+
+        <div class="bk-hero-copy">
+          <h1>Find your next stay</h1>
+          <p>Search deals on hotels, homes, and much more…</p>
+        </div>
+
+        <form class="bk-search-shell" data-home-search>
+          <label class="bk-field">
+            <span>Where are you going?</span>
+            <input name="destination" placeholder="City, region, or hotel" required />
+          </label>
+          <label class="bk-field">
+            <span>Check-in date — Check-out date</span>
+            <div class="bk-date-row">
+              <input name="checkin" type="date" />
+              <input name="checkout" type="date" />
+            </div>
+          </label>
+          <label class="bk-field">
+            <span>Guests</span>
+            <select name="guests">
+              <option value="1">1 adult · 1 room</option>
+              <option value="2" selected>2 adults · 1 room</option>
+              <option value="3">3 adults · 1 room</option>
+              <option value="4">4 adults · 2 rooms</option>
+            </select>
+          </label>
+          <button class="bk-search-btn ripple" type="submit">Search</button>
+        </form>
+
+        <label class="bk-checkline">
+          <input type="checkbox" name="addFlights" data-add-flights />
+          <span>Add flights to my search</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="bk-main">
+      <section class="bk-wrap bk-section" data-animate>
+        <h2>Why StayLuxe?</h2>
+        <div class="bk-why-grid">
+          <article class="bk-why-card">
+            <h3>Book now, pay at the property</h3>
+            <p>Most stays offer free cancellation and flexible payment options.</p>
+          </article>
+          <article class="bk-why-card">
+            <h3>Verified reviews from travelers</h3>
+            <p>Ratings are based on real stays and refreshed every day.</p>
+          </article>
+          <article class="bk-why-card">
+            <h3>Wide range of properties</h3>
+            <p>Hotels, apartments, villas, and unique stays in top destinations.</p>
+          </article>
+          <article class="bk-why-card">
+            <h3>24/7 customer support</h3>
+            <p>Our support team is available when plans change unexpectedly.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="bk-wrap bk-section" data-animate>
+        <h2>Trending destinations</h2>
+        <p class="bk-subtext">Most popular choices for travelers right now</p>
+        <div class="bk-trending-grid" data-trending-grid></div>
+      </section>
+
+      <section class="bk-wrap bk-section" data-animate>
+        <h2>Travel more, spend less</h2>
+        <div class="bk-genius-box">
+          <div>
+            <h3>Sign in, save money</h3>
+            <p>Save 10% or more at participating properties with member deals.</p>
+            <div class="bk-inline-actions">
+              <a class="bk-solid-btn" href="signin.html" data-transition>Sign in</a>
+              <a class="bk-link-btn" href="register.html" data-transition>Register</a>
+            </div>
+          </div>
+          <div class="bk-genius-pill">Genius</div>
+        </div>
+      </section>
+
+      <section class="bk-wrap bk-section" data-animate>
+        <h2>Popular with travelers from India</h2>
+        <div class="bk-popular-tabs" data-popular-tabs>
+          <button class="bk-pop-tab active" data-city-tab="domestic">Domestic cities</button>
+          <button class="bk-pop-tab" data-city-tab="international">International cities</button>
+          <button class="bk-pop-tab" data-city-tab="regions">Regions</button>
+          <button class="bk-pop-tab" data-city-tab="countries">Countries</button>
+          <button class="bk-pop-tab" data-city-tab="places">Places to stay</button>
+        </div>
+        <div class="bk-city-grid" data-city-grid></div>
+        <button class="bk-show-more" data-show-more>+ Show more</button>
+      </section>
+    </main>
+
+    <footer class="bk-footer" data-animate>
+      <div class="bk-wrap bk-footer-columns">
+        <div>
+          <h4>Support</h4>
+          <a href="#">Manage your trips</a>
+          <a href="#">Contact Customer Service</a>
+          <a href="#">Safety Resource Center</a>
+        </div>
+        <div>
+          <h4>Discover</h4>
+          <a href="#">Seasonal deals</a>
+          <a href="#">Travel articles</a>
+          <a href="#">Booking for Business</a>
+        </div>
+        <div>
+          <h4>Terms and settings</h4>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+        <div>
+          <h4>Partners</h4>
+          <a href="#">Partner help</a>
+          <a href="#">List your property</a>
+          <a href="#">Become an affiliate</a>
+        </div>
+        <div>
+          <h4>About</h4>
+          <a href="#">How we work</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+      <div class="bk-wrap bk-footer-bottom">
+        <span>INR</span>
+        <span>© 1996–2026 StayLuxe.com™. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <div data-toast-root></div>
+
+    <script type="module" src="js/home.js"></script>
+  </body>
+</html>

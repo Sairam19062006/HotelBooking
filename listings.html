@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StayLuxe • Hotel Listings</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand" data-transition>
+          <span class="brand-dot"></span>
+          <span>StayLuxe</span>
+        </a>
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html" data-transition>Home</a>
+          <a class="nav-link active" href="listings.html" data-transition>Hotels</a>
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="search-shell compact-search" style="margin:20px 0 0" data-animate>
+        <form class="search-bar search-bar-compact" data-home-search>
+          <label class="search-field">
+            <span class="field-label">Destination</span>
+            <input name="destination" placeholder="City, region, or property" />
+          </label>
+          <label class="search-field">
+            <span class="field-label">Check-in</span>
+            <input name="checkin" type="date" />
+          </label>
+          <label class="search-field">
+            <span class="field-label">Check-out</span>
+            <input name="checkout" type="date" />
+          </label>
+          <label class="search-field">
+            <span class="field-label">Guests</span>
+            <select name="guests">
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5+</option>
+            </select>
+          </label>
+          <button class="btn btn-primary ripple" type="submit">Search</button>
+        </form>
+      </section>
+
+      <div class="search-summary" data-search-summary>Flexible rates available for selected dates</div>
+
+      <section class="list-layout">
+      <aside class="sidebar" data-animate>
+        <div class="filter-card">
+          <h3 style="margin-top:0">Filters</h3>
+
+          <div class="filter-block">
+            <p class="filter-title">Destination</p>
+            <input class="input" data-filter-destination placeholder="City or country" />
+          </div>
+
+          <div class="filter-block">
+            <p class="filter-title">Max Price</p>
+            <input type="range" min="100" max="500" value="500" data-filter-price />
+            <div class="range-value" data-price-value>Up to $500</div>
+          </div>
+
+          <div class="filter-block">
+            <p class="filter-title">Min Rating</p>
+            <select class="select" data-filter-rating>
+              <option value="0">Any rating</option>
+              <option value="8">8+</option>
+              <option value="9">9+</option>
+              <option value="9.5">9.5+</option>
+            </select>
+          </div>
+
+          <div class="filter-block">
+            <p class="filter-title">Amenities</p>
+            <div class="checkbox-list" data-amenities></div>
+          </div>
+        </div>
+      </aside>
+
+      <section>
+        <div class="results-top" data-animate>
+          <h1 style="margin:0" data-count>0 properties found</h1>
+          <select class="select" style="max-width:220px" data-sort>
+            <option value="recommended">Recommended (value + rating)</option>
+            <option value="price-asc">Price (lowest first)</option>
+            <option value="price-desc">Price (highest first)</option>
+            <option value="rating">Guest rating (highest first)</option>
+          </select>
+        </div>
+
+        <div class="hotels-grid" data-results></div>
+      </section>
+      </section>
+    </main>
+
+    <footer class="footer">Compare prices, ratings, and availability before you book</footer>
+    <div data-toast-root></div>
+
+    <script type="module" src="js/listings.js"></script>
+  </body>
+</html>
