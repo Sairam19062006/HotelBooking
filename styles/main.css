@@ -1647,3 +1647,164 @@ body {
   color: var(--primary);
   font-weight: 600;
 }
+
+/* Gen Z uplift (homepage only) */
+.booking-home {
+  --bk-hero-bg: #0f1e46;
+  --bk-primary: #7c3aed;
+  --bk-primary-soft: #f3e8ff;
+  --bk-primary-dark: #6d28d9;
+  --bk-accent: #22d3ee;
+  background:
+    radial-gradient(1000px 500px at 10% -10%, rgba(124, 58, 237, 0.18), transparent 60%),
+    radial-gradient(900px 500px at 100% 20%, rgba(34, 211, 238, 0.14), transparent 60%),
+    #eef2ff;
+}
+
+.booking-home .bk-hero {
+  background:
+    radial-gradient(800px 400px at 85% 0%, rgba(34, 211, 238, 0.2), transparent 55%),
+    radial-gradient(700px 380px at 0% 100%, rgba(124, 58, 237, 0.28), transparent 56%),
+    var(--bk-hero-bg);
+  border-bottom: none;
+  box-shadow: 0 24px 46px rgba(15, 23, 66, 0.28);
+}
+
+.booking-home .bk-logo {
+  letter-spacing: -0.02em;
+}
+
+.booking-home .bk-logo-mark {
+  border-radius: 8px;
+  background: linear-gradient(140deg, #22d3ee, #7c3aed 55%, #f472b6);
+  box-shadow: 0 8px 22px rgba(124, 58, 237, 0.42);
+}
+
+.booking-home .bk-link-btn,
+.booking-home .bk-outline-btn,
+.booking-home .bk-solid-btn,
+.booking-home .bk-service-tab,
+.booking-home .bk-pop-tab {
+  border-radius: 12px;
+}
+
+.booking-home .bk-service-tab {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+}
+
+.booking-home .bk-service-tab.active {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.booking-home .bk-hero-copy h1 {
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.booking-home .bk-hero-copy p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.booking-home .bk-search-shell {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 18px 36px rgba(6, 12, 34, 0.32);
+}
+
+.booking-home .bk-field {
+  border-radius: 14px;
+  border-right: none;
+  margin: 4px;
+  padding: 10px 12px;
+}
+
+.booking-home .bk-search-btn {
+  margin: 4px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #7c3aed, #06b6d4);
+  font-size: 1.55rem;
+}
+
+.booking-home .bk-search-btn:hover,
+.booking-home .bk-solid-btn:hover {
+  background: linear-gradient(135deg, #6d28d9, #0891b2);
+}
+
+.booking-home .bk-checkline {
+  margin-top: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 7px 12px;
+}
+
+.booking-home .bk-section h2 {
+  letter-spacing: -0.025em;
+}
+
+.booking-home .bk-why-card,
+.booking-home .bk-genius-box,
+.booking-home .bk-trend-card {
+  border-radius: 16px;
+  border: 1px solid rgba(132, 144, 174, 0.24);
+  box-shadow: 0 12px 26px rgba(39, 55, 86, 0.1);
+}
+
+.booking-home .bk-why-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(10px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.booking-home .bk-why-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 28px rgba(59, 72, 108, 0.16);
+}
+
+.booking-home .bk-trend-overlay {
+  padding: 12px;
+}
+
+.booking-home .bk-genius-box {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.95), rgba(245, 243, 255, 0.92));
+}
+
+.booking-home .bk-genius-pill {
+  background: linear-gradient(140deg, #7c3aed, #06b6d4);
+  border-radius: 999px;
+  padding: 10px 16px;
+  box-shadow: 0 10px 20px rgba(124, 58, 237, 0.35);
+}
+
+.booking-home .bk-pop-tab.active {
+  border-color: rgba(124, 58, 237, 0.35);
+  background: linear-gradient(120deg, rgba(124, 58, 237, 0.14), rgba(34, 211, 238, 0.12));
+}
+
+.booking-home .bk-city-grid a {
+  border-radius: 10px;
+  padding: 5px 8px;
+  transition: background-color 0.16s ease, transform 0.16s ease;
+}
+
+.booking-home .bk-city-grid a:hover {
+  text-decoration: none;
+  background: rgba(124, 58, 237, 0.08);
+  transform: translateX(2px);
+}
+
+.booking-home .bk-show-more {
+  border-radius: 999px;
+  border: 1px solid rgba(124, 58, 237, 0.26);
+  padding: 7px 12px;
+}
+
+.booking-home .bk-footer {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(132, 144, 174, 0.26);
+}
